@@ -1,6 +1,7 @@
 # DemoControlValueAccesor
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+<img width="1299" height="742" alt="image" src="https://github.com/user-attachments/assets/847886cd-8030-4db2-980d-036550808f85" />
 
 ## Development server
 
