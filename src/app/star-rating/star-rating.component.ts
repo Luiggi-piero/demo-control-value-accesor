@@ -21,7 +21,10 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 export class StarRatingComponent implements OnInit, ControlValueAccessor {
   private _rating: number = 3;
   ratingArr: number[] = [];
+
+  // Variable para almacenar la función que servira para comunicar los cambios(de valor) al form control 'rating' de AppComponent
   private _onChanged: Function = (_value: number) => {};
+  // Variable para almacenar la función que servira para comunicar los cambios touch(al enfocar) al form control 'rating' de AppComponent
   private _onTouch: Function = (_value: number) => {};
 
   ngOnInit(): void {
